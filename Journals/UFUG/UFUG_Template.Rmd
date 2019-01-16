@@ -1,0 +1,200 @@
+---
+title: 'Urban Forestry & Urban Greening (UFUG) TEMPLATE [replace with the paper title]'
+author: 'Dexter H. Locke, PhD^a^ [replace with your (co)author name(s)]'
+date: '`r format(Sys.time())`'
+output: 
+     word_document:
+          reference_docx: UFUG_Template.docx
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, echo=FALSE, include=FALSE}
+# The UFUG submission guidelines are found here:
+# https://www.elsevier.com/journals/urban-forestry-and-urban-greening/1618-8667?generatepdf=true
+
+# RStudio's "R Markdown Cheat Sheet" can be found here
+# https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf
+
+# anther useful reource is this blog post called 
+# "Happy collaboration with Rmd to docx", which this workflow is largely based on
+# https://rmarkdown.rstudio.com/articles_docx.html
+
+# consider starting the R code here
+# maybe just set up the working directory, load the libraries,
+# read in the data, clea the data
+
+library(tidyverse)
+library(knitr)
+
+# set a significance threshold
+SigLevel <- 0.05
+```
+
+This document was last Knit on `r Sys.time()`, which is in YYYY-MM-DD HH:MM:SS GMT format.  Note that red text within [ ] are instructions, tips, reminders and/or guides  and intended to be helpful. If they are not, then delete them! :-)
+
+The file path associated with this Knit and project is `r getwd()`  
+
+^a^National Socio-Environmental Synthesis Center (SESYNC)   
+1 Park Place  
+Annapolis MD 01610-1477  
+USA  
+PHONE 310 463 6202  
+EMAIL dexter.locke@gmail.com, dlocke@sesync.org
+http://dexterlocke.com/
+
+
+# Abstract
+[A concise and factual abstract is required. The abstract should state briefly the purpose of the research, the principal results and major conclusions. An abstract is often presented separately from the article, so it must be able to stand alone. For this reason, References should be avoided, but if essential, then cite the author(s) and year(s). Also, non-standard or uncommon abbreviations should be avoided, but if essential they must be defined at their first mention in the abstract itself. For research papers, an Abstract must be included.  It should be factual and not exceed 300 words]  
+
+Begin typing here  
+
+
+# Keywords
+
+[Up to six Key words, excluding words from the title, should be provided in alphabetical order below the Abstract.]  
+
+Examples: Tree canopy, remote sensing, urban ecology, urban forestry, Latin America and the Caribbean  
+
+
+# 1. Introduction
+
+[This section describes the motivation for the research question in two pages  
+give the reader:  
+hook  
+problem  
+purpose  
+allude to methods  
+set up the research questions]  
+
+
+# 2. Methods
+## 2.1 Study Area
+[This section describes the study area in a few paragraphs, and preferably why this is ‘good’ area for these questions]  
+
+Begin typing here  
+
+
+## 2.2 Data
+[What data were used, why are they well-matched the research questions and relevant. Citations and/or links to (OPEN?) data sources should be provided]  
+
+Begin typing here  
+
+
+## 2.3. Analysis
+### 2.3.1 Subsection 1?
+[This section describes the data preparation such as making derivative products from the inputs, geoprocessing, or any other similar preparation steps]  
+
+Begin typing here  
+
+
+### 2.3.1 Subsection 2?:
+[if needed]  
+
+Begin typing here 
+
+All statistical analyses were carried out with `r R.version.string`.
+
+We define statistically significant as a p-value of <`r SigLevel`.
+
+
+# 3 Results
+[This section describes the results without interpretation in two pages.]  
+
+## 3.1 Example subsection
+
+## 3.2 Example subsection 2
+
+**(Table 1).** Title of the first table
+```{r, echo=FALSE, include=TRUE}
+# consider starting the R code here, If yo haven't already above
+# maybe just set up the working directory, load the libraries,
+# read in the data, clea the data
+
+
+```
+
+# 4 Discussion
+[Justification and main finding]
+
+Begin typing here 
+
+
+# 5 Conclusions
+[This section gives the most important message in less than one page.]  
+
+Begin typing here  
+
+# 6 Acknowledgements
+[Grants, etc. Anonymous reviewers supplied constructive feedback that helped to improve this paper.]  
+
+This work was supported by the National Socio-Environmental Synthesis Center (SESYNC) under funding received from the National Science Foundation DBI-1639145.
+
+# 7 Literature
+[References
+References to articles and books should be limited to published work, work in press, or theses and
+dissertations. Citations in the text should be in the following forms: Johnson (1995), Harms and
+Johnson (1992), or (Johnson, 1995), (Johnson et al., 1998), or (Miller, 1988; Johnston, 1998, 1999).
+References in the text should be listed in chronological order. References in the list at the end of the
+article should be listed in alphabetical order. Names of journals should not be abbreviated. Please
+make sure before submission of the manuscript that all references are cited, that all citations in the
+text are included in the References, and that all citations have the correct format.
+Reference links
+Increased discoverability of research and high quality peer review are ensured by online links to
+the sources cited. In order to allow us to create links to abstracting and indexing services, such as
+Scopus, CrossRef and PubMed, please ensure that data provided in the references are correct. Please
+note that incorrect surnames, journal/book titles, publication year and pagination may prevent link
+creation. When copying references, please be careful as they may already contain errors. Use of the
+DOI is encouraged.
+Web references
+As a minimum, the full URL should be given and the date when the reference was last accessed. Any
+further information, if known (DOI, author names, dates, reference to a source publication, etc.),
+should also be given. Web references can be listed separately (e.g., after the reference list) under a
+different heading if desired, or can be included in the reference list.
+References in a special issue
+Please ensure that the words 'this issue' are added to any references in the list (and any citations in
+the text) to other articles in the same Special Issue.
+Formats for citations
+Bradshaw, A.D., Biddle, P.G., Patch, D., Spurway, P.E., 1988. Arboricultural research: report of the
+review group on research on arboriculture. Arboricultural Journal 12, 307–360.
+Gadow, K. von, Puumalainen, J., 2000. Scenario planning for sustainable forest management. In:
+Gadow, K. von, Pukkala, T., Tomé, M. (Eds.), Sustainable Forest Management. Managing Forest
+Ecosystems, Vol. 1, Kluwer Academic Publishers, Dordrecht, pp. 319–356.
+Hodge, S.J., 1995. Creating and managing woodlands around towns. Forestry Commission Handbook,
+Vol. 11, HMSO, London.
+Holm, S., 2000. Anvendelse og betydning af byens parker og grønne områder (Use and importance
+of urban parks). Forest & Landscape Research No 28-2000, Danish Forest and Landscape Research
+Institute, Hoersholm. (In Danish, with English summary)
+Rydberg, D. 1998. Urban forestry in Sweden -Silvicultural aspects focusing on young forests. Ph.D.
+Thesis, Swedish University of Agricultural Sciences, Umeå.
+FAO, 2007. State of the World’s Forests 2007. Retrieved July 22nd, 2008 from
+http://www.fao.org/docrep/009/a0773e/a0773e00.htm.
+For reference style 2 Harvard:
+[dataset] Oguro, M., Imahiro, S., Saito, S., Nakashizuka, T., 2015. Mortality data for Japanese oak
+wilt disease and surrounding forest compositions. Mendeley Data, v1. http://dx.doi.org/10.17632/
+xwj98nb39r.1.
+Data references
+This journal encourages you to cite underlying or relevant datasets in your manuscript by citing them
+in your text and including a data reference in your Reference List. Data references should include the
+following elements: author name(s), dataset title, data repository, version (where available), year,
+and global persistent identifier. Add [dataset] immediately before the reference so we can properly
+identify it as a data reference. The [dataset] identifier will not appear in your published article]
+
+Begin typing here  
+
+
+# Figures (if not alredy Knit into the text)
+
+# Tables (if not alredy Knit into the text)
+
+# Appendix
+[The appendix gives technical material that is important but too long and detailed for most readers. Most papers will not have an appendix.  Consider also including links to data and reproducible R code]
+
+
+```{r, include=TRUE}
+sessionInfo()
+# End on
+date()
+```
