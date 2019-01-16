@@ -4,7 +4,7 @@ author: 'Dexter H. Locke, PhD^a^ [replace with your (co)author name(s)]'
 date: '`r format(Sys.time())`'
 output: 
      word_document:
-          reference_docx: UFUG_Template.docx
+          reference_docx: UECO_Template.docx
 ---
 
 ```{r setup, include=FALSE}
@@ -139,61 +139,33 @@ Begin typing here
 This work was supported by the National Socio-Environmental Synthesis Center (SESYNC) under funding received from the National Science Foundation DBI-1639145.
 
 # References
-[References - Assertions made in the paper that are not supported solely by your research and rely in
-part or whole on work by others must appropriately referenced. Emphasize scholarly, peer-reviewed
-publications that are internationally accessible. Follow the APA 6th ed. format for all source types in
-the reference list and in-text citations (see basic examples below). Ensure that all references cited
-in the text are also in the reference list (and vice versa). References and multiple in-text citations
-should be arranged first alphabetically and, if necessary, further sorted chronologically. More than
-one reference from the same author(s) in the same year should be identified by the letters "a", "b",
-"c", etc., placed after the year of publication. Special cases include:
-Digital object identifier (DOI) - The digital object identifier (DOI) provides a persistent link to
-electronically available journal articles and some other sources. It should be included at the end of
-a reference when available (see example below). Uniform resource locators (URL) - References
-to published and unpublished documents, websites, and other sources that are primarily accessed
-through the Internet should include the URL after providing regular citation information in as complete
-a form as possible (see examples below). Include the retrieval date only if the source material linked
-to the URL changes over time. Accepted and in press publications - References to sources that
-have been recently accepted for publication or are already in press should be cited using as complete
-of information as possible, including volume/issue numbers and DOI/URLs. Authors should make
-every attempt to update such references as papers move through revision to acceptance and page
-proofs. Work in preparation, submitted, under review, etc. - Work destined for publication that
-has not yet been officially accepted should not be listed in the reference list. Limited citation of such
-work may be included in the body of the text only, and should be referred to as unpublished data, for
-example: (Gobster and Xiang, unpublished data). Non-refereed works - References to unpublished
-and/or non-refereed sources such as unpublished data, newspaper and popular magazine articles,
-websites, and other "gray literature" should be used sparingly and not to support claims made in the
-paper. Exceptions to this include unpublished theses and dissertations. Personal communications
-- Interviews, private e-mails and letters, and other personal communications are not considered
-recoverable data and thus should not be included in your reference list. If included in your work,
-they should be referenced within the text by name and date of the communication, e.g. - A. Smith
-(personal communication, January 10, 2012), (A. Smith, personal communication, January 10, 2012).
-Non-English references - Non-English references should be used sparingly and in cases where the
-source provides essential support to your work and more widely accessible English language sources
-cannot substitute. Provide an English translation after the original title (see example 6 below)
-Basic reference list examples -
-Journal article - Hersperger, A. M., Langhamer, D., & Dalang, T. (2012). Inventorying humanmade objects - A step towards better understanding land use for multifunctional planning in
-a periurban Swiss landscape. Landscape and Urban Planning, 105(3), 307-314. doi - 10.1016/
-j.landurbplan.2012.01.008 Book - Niemela, J. (Ed.). (2012). Urban ecology - Patterns, processes
-and applications. New York - Oxford. Chapter in an edited book - McDonnell, M. J., & Hahs, A.
-K. (2009). Comparative ecology of cities and towns - Past, present and future. In M. J. McDonnell,
-A. K. Hahs, & J. H. Breuste (Eds.), Ecology of cities and towns - A comparative approach (pp.
-71-89). New York - Cambridge. Technical or research report, published in print and online
- - Gobster, P. H., and & Haight, R. G. (2004). From landscapes to lots - Understanding and
-managing Midwestern landscape change (General Technical Report NC-245). St. Paul, MN - U.S.
-Department of Agriculture, Forest Service, North Central Research Station. Retrieved from - http
--//www.nrs.fs.fed.us/pubs/gtr/gtr_nc245.pdf Web pages and other online-only sources with
-changing content - Editor. (n.d.). Guide for authors. Landscape and Urban Planning, Retrieved
-January 1, 2012 from https://www.elsevier.com/journals/landscape-and-urban-planning/0169-2046/
-guide-for-authors Journal article, non-English source - Vogel, B., Molich, T., & Klar, N. (2009). Der
-Wildkatzenwegeplan - Ein strategisches Instrument des Naturschutz (The Wildcat Infrastructure Plan
-- A strategic instrument of nature conservation). Naturschutz und Landschaftsplanung, 41, 333-340.
-Basic in-text reference examples - Authors cited outside and within parentheses - "We
-used the Cuzick and Edwards (1990) test... ... summed across all cases (Cuzick & Edwards, 1990)".
-Multiple works in same parentheses - "...urban areas tended to have less diverse assemblages
-of bird species than adjacent natural areas (Beissinger & Osborne, 1982; Cam, Nichols, Sauer, Hines,
-& Flather, 2000; Gavareski, 1976)..." Multiple authors, 2nd occurrence - "...responses to habitat
-features were scale dependent (Bolger, Scott, & Rotenberry, 1997; Cam et al., 2000)."]
+[Citation
+Cite references in the text by name and year in parentheses. Some examples:
+Negotiation research spans many disciplines (Thompson 1990).
+This result was later contradicted by Becker and Seligman (1996).
+This effect has been widely studied (Abbott 1991; Barakat et al. 1995a, b; Kelso and Smith 1998; Medvec et al. 1999, 2000).
+Reference list
+The list of references should only include works that are cited in the text and that have been published or accepted for publication. Personal communications and unpublished works should only be mentioned in the text. Do not use footnotes or endnotes as a substitute for a reference list.
+Reference list entries should be alphabetized by the last names of the first author of each work. Order multi-author publications of the same first author alphabetically with respect to second, third, etc. author. Publications of exactly the same author(s) must be ordered chronologically.
+Journal article
+Gamelin FX, Baquet G, Berthoin S, Thevenet D, Nourry C, Nottin S, Bosquet L (2009) Effect of high intensity intermittent training on heart rate variability in prepubescent children. Eur J Appl Physiol 105:731-738. https://doi.org/10.1007/s00421-008-0955-8
+Ideally, the names of all authors should be provided, but the usage of “et al” in long author lists will also be accepted:
+Smith J, Jones M Jr, Houghton L et al (1999) Future of health insurance. N Engl J Med 965:325–329
+Article by DOI
+Slifka MK, Whitton JL (2000) Clinical implications of dysregulated cytokine production. J Mol Med. https://doi.org/10.1007/s001090000086
+Book
+South J, Blass B (2001) The future of modern genomics. Blackwell, London
+Book chapter
+Brown B, Aaron M (2001) The politics of nature. In: Smith J (ed) The rise of modern genomics, 3rd edn. Wiley, New York, pp 230-257
+Online document
+Cartwright J (2007) Big stars have weather too. IOP Publishing PhysicsWeb. http://physicsweb.org/articles/news/11/6/16/1. Accessed 26 June 2007
+Dissertation
+Trent JW (1975) Experimental acute renal failure. Dissertation, University of California
+Always use the standard abbreviation of a journal’s name according to the ISSN List of Title Word Abbreviations, see
+ISSN LTWA
+If you are unsure, please use the full journal title.
+For authors using EndNote, Springer provides an output style that supports the formatting of in-text citations and reference list.
+EndNote style (zip, 2 kB)]
 
 Begin typing here  
 

@@ -4,7 +4,7 @@ author: 'Dexter H. Locke, PhD^a^ [replace with your (co)author name(s)]'
 date: '`r format(Sys.time())`'
 output: 
      word_document:
-          reference_docx: UFUG_Template.docx
+          reference_docx: LAUP_Template.docx
 ---
 
 ```{r setup, include=FALSE}
