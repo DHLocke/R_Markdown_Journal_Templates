@@ -1,0 +1,196 @@
+---
+title: 'Journal of Arid Environments (JARIDENV)  TEMPLATE [replace with the paper title]'
+author: 'Dexter H. Locke, PhD^a^ [replace with your (co)author name(s)]'
+date: '`r format(Sys.time())`'
+output: 
+     word_document:
+          reference_docx: LAUP_Template.docx
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, echo=FALSE, include=FALSE}
+# The JARIDENV submission guidelines are found here:
+# https://www.elsevier.com/journals/journal-of-arid-environments/01401963/guide-for-authors
+
+# RStudio's "R Markdown Cheat Sheet" can be found here
+# https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf
+
+# anther useful reource is this blog post called 
+# "Happy collaboration with Rmd to docx", which this workflow is largely based on
+# https://rmarkdown.rstudio.com/articles_docx.html
+
+# consider starting the R code here
+# maybe just set up the working directory, load the libraries,
+# read in the data, clea the data
+
+library(tidyverse)
+library(knitr)
+
+# set a significance threshold
+SigLevel <- 0.05
+```
+
+This document was last Knit on `r Sys.time()`, which is in YYYY-MM-DD HH:MM:SS GMT format.  Note that red text within [ ] are instructions, tips, reminders and/or guides  and intended to be helpful. If they are not, then delete them! :-)
+
+The file path associated with this Knit and project is `r getwd()`  
+
+^a^National Socio-Environmental Synthesis Center (SESYNC)   
+1 Park Place  
+Annapolis MD 01610-1477  
+USA  
+PHONE 310 463 6202  
+EMAIL dexter.locke@gmail.com, dlocke@sesync.org
+http://dexterlocke.com/
+
+
+# Abstract
+[250 words or less]  
+
+Begin typing here  
+
+
+# Keywords
+
+[3-6]  
+
+Examples: Tree canopy, remote sensing, urban ecology, urban forestry, Latin America and the Caribbean  
+
+
+# 1. Introduction
+
+[This section describes the motivation for the research question in two pages  
+give the reader:  
+hook  
+problem  
+purpose  
+allude to methods  
+set up the research questions]  
+
+
+# 2. Method
+## 2.1. Study Area
+[This section describes the study area in a few paragraphs, and preferably why this is ‘good’ area for these questions]  
+
+Begin typing here  
+
+
+## 2.2 Data
+[What data were used, why are they well-matched the research questions and relevant. Citations and/or links to (OPEN?) data sources should be provided]  
+
+Begin typing here  
+
+
+## 2.3. Analysis
+
+Begin typing here  
+
+All statistical analyses were carried out with `r R.version.string`.
+
+We define statistically significant as a p-value of <`r SigLevel`.
+
+
+# 3. Results
+[This section describes the results without interpretation in two pages.]  
+
+## 3.1. Example subsection
+
+## 3.2. Example subsection 2
+
+**(Table 1).** Title of the first table
+```{r, echo=FALSE, include=TRUE}
+# consider starting the R code here, If yo haven't already above
+# maybe just set up the working directory, load the libraries,
+# read in the data, clea the data
+
+
+```
+
+# 4. Discussion
+[Justification and main finding]
+
+Begin typing here 
+
+
+# 5. Conclusions
+[This section gives the most important message in less than one page.]  
+
+Begin typing here  
+
+# Acknowledgements
+[Grants, etc. Anonymous reviewers supplied constructive feedback that helped to improve this paper. Consider acknowledging this repo! https://github.com/DHLocke/R_Markdown_Journal_Templates]  
+
+This work was supported by the National Socio-Environmental Synthesis Center (SESYNC) under funding received from the National Science Foundation DBI-1639145.
+
+# References
+[Citation in text 
+Please ensure that every reference cited in the text is also present in the reference list (and vice versa). Any references cited in the abstract must be given in full. Unpublished results and personal communications are not recommended in the reference list, but may be mentioned in the text. If these references are included in the reference list they should follow the standard reference style of the journal and should include a substitution of the publication date with either 'Unpublished results' or 'Personal communication'. Citation of a reference as 'in press' implies that the item has been accepted for publication.
+
+Regular research papers have a reference limit of 50 cites and short communications should not exceed 20 cites.
+
+Reference links 
+Increased discoverability of research and high quality peer review are ensured by online links to the sources cited. In order to allow us to create links to abstracting and indexing services, such as Scopus, CrossRef and PubMed, please ensure that data provided in the references are correct. Please note that incorrect surnames, journal/book titles, publication year and pagination may prevent link creation. When copying references, please be careful as they may already contain errors. Use of the DOI is highly encouraged.
+
+A DOI is guaranteed never to change, so you can use it as a permanent link to any electronic article. An example of a citation using DOI for an article not yet in an issue is: VanDecar J.C., Russo R.M., James D.E., Ambeh W.B., Franke M. (2003). Aseismic continuation of the Lesser Antilles slab beneath northeastern Venezuela. Journal of Geophysical Research, https://doi.org/10.1029/2001JB000884. Please note the format of such citations should be in the same style as all other references in the paper.
+
+Web references 
+As a minimum, the full URL should be given and the date when the reference was last accessed. Any further information, if known (DOI, author names, dates, reference to a source publication, etc.), should also be given. Web references can be listed separately (e.g., after the reference list) under a different heading if desired, or can be included in the reference list.
+
+Data references 
+This journal encourages you to cite underlying or relevant datasets in your manuscript by citing them in your text and including a data reference in your Reference List. Data references should include the following elements: author name(s), dataset title, data repository, version (where available), year, and global persistent identifier. Add [dataset] immediately before the reference so we can properly identify it as a data reference. The [dataset] identifier will not appear in your published article.
+
+References in a special issue 
+Please ensure that the words 'this issue' are added to any references in the list (and any citations in the text) to other articles in the same Special Issue.
+
+Reference management software 
+Most Elsevier journals have their reference template available in many of the most popular reference management software products. These include all products that support Citation Style Language styles, such as Mendeley. Using citation plug-ins from these products, authors only need to select the appropriate journal template when preparing their article, after which citations and bibliographies will be automatically formatted in the journal's style. If no template is yet available for this journal, please follow the format of the sample references and citations as shown in this Guide. If you use reference management software, please ensure that you remove all field codes before submitting the electronic manuscript. More information on how to remove field codes from different reference management software.
+
+Users of Mendeley Desktop can easily install the reference style for this journal by clicking the following link:
+http://open.mendeley.com/use-citation-style/journal-of-arid-environments
+When preparing your manuscript, you will then be able to select this style using the Mendeley plug-ins for Microsoft Word or LibreOffice.
+
+Reference formatting 
+There are no strict requirements on reference formatting at submission. References can be in any style or format as long as the style is consistent. Where applicable, author(s) name(s), journal title/book title, chapter title/article title, year of publication, volume number/book chapter and the article number or pagination must be present. Use of DOI is highly encouraged. The reference style used by the journal will be applied to the accepted article by Elsevier at the proof stage. Note that missing data will be highlighted at proof stage for the author to correct. If you do wish to format the references yourself they should be arranged according to the following examples:
+
+Reference style 
+Text: All citations in the text should refer to: 
+1. Single author: the author's name (without initials, unless there is ambiguity) and the year of publication; 
+2. Two authors: both authors' names and the year of publication; 
+3. Three or more authors: first author's name followed by 'et al.' and the year of publication. 
+Citations may be made directly (or parenthetically). Groups of references can be listed either first alphabetically, then chronologically, or vice versa. 
+Examples: 'as demonstrated (Allan, 2000a, 2000b, 1999; Allan and Jones, 1999)…. Or, as demonstrated (Jones, 1999; Allan, 2000)… Kramer et al. (2010) have recently shown …' 
+List: References should be arranged first alphabetically and then further sorted chronologically if necessary. More than one reference from the same author(s) in the same year must be identified by the letters 'a', 'b', 'c', etc., placed after the year of publication. 
+Examples: 
+Reference to a journal publication: 
+Van der Geer, J., Hanraads, J.A.J., Lupton, R.A., 2010. The art of writing a scientific article. J. Sci. Commun. 163, 51–59. https://doi.org/10.1016/j.Sc.2010.00372. 
+Reference to a journal publication with an article number: 
+Van der Geer, J., Hanraads, J.A.J., Lupton, R.A., 2018. The art of writing a scientific article. Heliyon. 19, e00205. https://doi.org/10.1016/j.heliyon.2018.e00205. 
+Reference to a book: 
+Strunk Jr., W., White, E.B., 2000. The Elements of Style, fourth ed. Longman, New York. 
+Reference to a chapter in an edited book: 
+Mettam, G.R., Adams, L.B., 2009. How to prepare an electronic version of your article, in: Jones, B.S., Smith , R.Z. (Eds.), Introduction to the Electronic Age. E-Publishing Inc., New York, pp. 281–304.
+Reference to a website:
+Cancer Research UK, 1975. Cancer statistics reports for the UK. http://www.cancerresearchuk.org/aboutcancer/statistics/cancerstatsreport/ (accessed 13 March 2003).
+Reference to a dataset:
+[dataset] Oguro, M., Imahiro, S., Saito, S., Nakashizuka, T., 2015. Mortality data for Japanese oak wilt disease and surrounding forest compositions. Mendeley Data, v1. https://doi.org/10.17632/xwj98nb39r.1.
+
+Please note that Journal names and references should be provided in full.]
+
+Begin typing here  
+
+
+# Figures (if not alredy Knit into the text)
+
+# Tables (if not alredy Knit into the text)
+
+# Appendix
+[The appendix gives technical material that is important but too long and detailed for most readers. Most papers will not have an appendix.  Consider also including links to data and reproducible R code]
+
+
+```{r, include=TRUE}
+sessionInfo()
+# End on
+date()
+```
