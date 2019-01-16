@@ -9,7 +9,7 @@ The system is based the workflow presented by Richard Layton in a blog post call
 
 Please consider adding a template here for your next journal submission!
 
-You could save someone else - maybe a future version of **you** - considerable time by improving the workflow.
+You could save someone else - maybe a future version of **you** - considerable time by improving a workflow.
 
 Currently there are templates for the following journals:
 
