@@ -70,7 +70,7 @@ allude to methods
 set up the research questions]  
 
 
-# 2. Methods
+# 2. Materials and methods
 ## 2.1 Study Area
 [This section describes the study area in a few paragraphs, and preferably why this is ‘good’ area for these questions]  
 
@@ -84,13 +84,13 @@ Begin typing here
 
 
 ## 2.3. Analysis
-### 2.3.1 Subsection 1?
+### 2.3.1. Subsection 1?
 [This section describes the data preparation such as making derivative products from the inputs, geoprocessing, or any other similar preparation steps]  
 
 Begin typing here  
 
 
-### 2.3.1 Subsection 2?:
+### 2.3.1. Subsection 2?:
 [if needed]  
 
 Begin typing here 
@@ -100,12 +100,12 @@ All statistical analyses were carried out with `r R.version.string`.
 We define statistically significant as a p-value of <`r SigLevel`.
 
 
-# 3 Results
+# 3. Results
 [This section describes the results without interpretation in two pages.]  
 
-## 3.1 Example subsection
+## 3.1. Example subsection
 
-## 3.2 Example subsection 2
+## 3.2. Example subsection 2
 
 **(Table 1).** Title of the first table
 ```{r, echo=FALSE, include=TRUE}
@@ -116,25 +116,24 @@ We define statistically significant as a p-value of <`r SigLevel`.
 
 ```
 
-# 4 Discussion
+# 4. Discussion
 [Justification and main finding]
 
 Begin typing here 
 
 
-# 5 Conclusions
+# 5. Conclusions
 [This section gives the most important message in less than one page.]  
 
 Begin typing here  
 
-# 6 Acknowledgements
+# Acknowledgements
 [Grants, etc. Anonymous reviewers supplied constructive feedback that helped to improve this paper.]  
 
 This work was supported by the National Socio-Environmental Synthesis Center (SESYNC) under funding received from the National Science Foundation DBI-1639145.
 
-# 7 Literature
-[References
-References to articles and books should be limited to published work, work in press, or theses and
+# References
+[References to articles and books should be limited to published work, work in press, or theses and
 dissertations. Citations in the text should be in the following forms: Johnson (1995), Harms and
 Johnson (1992), or (Johnson, 1995), (Johnson et al., 1998), or (Miller, 1988; Johnston, 1998, 1999).
 References in the text should be listed in chronological order. References in the list at the end of the
