@@ -19,6 +19,6 @@ Currently there are templates for the following journals:
 | UECO | Urban Ecosystems | https://www.springer.com/life+sciences/ecology/journal/11252 |
 | UFUG | Urban Forestry & Urban Greening | https://www.elsevier.com/journals/urban-forestry-and-urban-greening/1618-8667?generatepdf=true |
 
-See the "Journals" folder above.
+See the ["Journals"](https://github.com/DHLocke/R_Markdown_Journal_Templates/tree/master/Journals) folder above.
 
 Questions? @DextraordinaryH
