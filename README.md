@@ -1,7 +1,7 @@
 # R_Markdown_Journal_Templates
 Rmarkdown is useful for integrating reproducible R code into manuscripts. Journal manuscript formats vary. The goal of this repository is to have place for journal-specific formatted Rmarkdown files.
 
-Paper templates with required headings and (suggested) sub-heading specific to certain journals' formating needs will be created and stored here. Users are encouraged to download and use these templates to help accelerate creating their own manuscripts for peer review. Ideally users will also modify and adapt existing templates to meet the needs of other journals' requirements. Naturally journals formats will change.
+Paper templates with required headings and (suggested) sub-heading specific to certain journals' formating needs will be created and stored here. Users are encouraged to download and use these templates to help accelerate creating their own manuscripts for peer review. Ideally users will also modify and adapt existing templates to meet the needs of other journals' requirements. Naturally journal formats will change.
 
 *There is absolutely no guarantee that the volunteered templates will 100% meet the submission requirements of your chosen journal.*
 
