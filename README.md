@@ -15,6 +15,7 @@ Currently there are templates for the following journals:
 
 | Abbreviation | Journal name | Link to site |
 | :--- | :--- | :--- |
+| UECO | Urban Ecosystems | https://www.springer.com/life+sciences/ecology/journal/11252 |
 | LAUP | Landscape and Urban Planning | https://www.elsevier.com/journals/landscape-and-urban-planning/0169-2046?generatepdf=true |
 | UFUG | Urban Forestry & Urban Greening | https://www.elsevier.com/journals/urban-forestry-and-urban-greening/1618-8667?generatepdf=true |
 
