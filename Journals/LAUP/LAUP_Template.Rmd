@@ -134,7 +134,7 @@ Begin typing here
 Begin typing here  
 
 # Acknowledgements
-[Grants, etc. Anonymous reviewers supplied constructive feedback that helped to improve this paper.]  
+[Grants, etc. Anonymous reviewers supplied constructive feedback that helped to improve this paper. Consider acknowledging this repo! https://github.com/DHLocke/R_Markdown_Journal_Templates]  
 
 This work was supported by the National Socio-Environmental Synthesis Center (SESYNC) under funding received from the National Science Foundation DBI-1639145.
 
