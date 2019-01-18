@@ -1,0 +1,147 @@
+---
+title: 'Urban Studies (USJ)  TEMPLATE [replace with the paper title]'
+author: 'Dexter H. Locke, PhD^a^ [replace with your (co)author name(s)]'
+date: '`r format(Sys.time())`'
+output: 
+     word_document:
+          reference_docx: USJ_Template.docx
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, echo=FALSE, include=FALSE}
+# The USJ submission guidelines are found here:
+# https://us.sagepub.com/en-us/nam/journal/urban-studies
+
+# RStudio's "R Markdown Cheat Sheet" can be found here
+# https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf
+
+# anther useful reource is this blog post called 
+# "Happy collaboration with Rmd to docx", which this workflow is largely based on
+# https://rmarkdown.rstudio.com/articles_docx.html
+
+# consider starting the R code here
+# maybe just set up the working directory, load the libraries,
+# read in the data, clea the data
+
+library(tidyverse)
+library(knitr)
+
+# set a significance threshold
+SigLevel <- 0.05
+```
+
+This document was last Knit on `r Sys.time()`, which is in YYYY-MM-DD HH:MM:SS GMT format.  Note that red text within [ ] are instructions, tips, reminders and/or guides  and intended to be helpful. If they are not, then delete them! :-)
+
+The file path associated with this Knit and project is `r getwd()`  
+
+^a^National Socio-Environmental Synthesis Center (SESYNC)   
+1 Park Place  
+Annapolis MD 01610-1477  
+USA  
+PHONE 310 463 6202  
+EMAIL dexter.locke@gmail.com, dlocke@sesync.org
+http://dexterlocke.com/
+
+
+# Abstract
+[250 words or less]  
+
+Begin typing here  
+
+
+# Keywords
+
+[3-6]  
+
+Examples: Tree canopy, remote sensing, urban ecology, urban forestry, Latin America and the Caribbean  
+
+
+# Introduction
+
+[This section describes the motivation for the research question in two pages  
+give the reader:  
+hook  
+problem  
+purpose  
+allude to methods  
+set up the research questions]  
+
+
+# Method
+## Study Area
+[This section describes the study area in a few paragraphs, and preferably why this is ‘good’ area for these questions]  
+
+Begin typing here  
+
+
+## Data
+[What data were used, why are they well-matched the research questions and relevant. Citations and/or links to (OPEN?) data sources should be provided]  
+
+Begin typing here  
+
+
+## Analysis
+
+Begin typing here  
+
+All statistical analyses were carried out with `r R.version.string`.
+
+We define statistically significant as a p-value of <`r SigLevel`.
+
+
+# Results
+[This section describes the results without interpretation in two pages.]  
+
+## Example subsection
+
+## Example subsection 2
+
+**(Table 1).** Title of the first table
+```{r, echo=FALSE, include=TRUE}
+# consider starting the R code here, If yo haven't already above
+# maybe just set up the working directory, load the libraries,
+# read in the data, clea the data
+
+
+```
+
+# Discussion
+[Justification and main finding]
+
+Begin typing here 
+
+
+# Conclusions
+[This section gives the most important message in less than one page.]  
+
+Begin typing here  
+
+# Acknowledgements
+[Grants, etc. Anonymous reviewers supplied constructive feedback that helped to improve this paper. Consider acknowledging this repo! https://github.com/DHLocke/R_Markdown_Journal_Templates]  
+
+This work was supported by the National Socio-Environmental Synthesis Center (SESYNC) under funding received from the National Science Foundation DBI-1639145.
+
+# References
+[Urban Studies adheres to the SAGE Harvard reference style. Click here to review the guidelines on SAGE Harvard to ensure your manuscript conforms to this reference style.
+
+If you use EndNote to manage references, download the SAGE Harvard output style by following this link and or search for ‘SAGE Harvard’. Save the ens. file to the appropriate folder (normally for Windows C:\Program Files\EndNote\Styles and for Mac OS X Harddrive:Applications:EndNote:Styles). Once you’ve done this, open EndNote and choose “Select Another Style...” from the dropdown menu in the menu bar; locate and choose this new style from the following screen.]
+
+Begin typing here  
+
+
+# Figures (if not alredy Knit into the text)
+
+# Tables (if not alredy Knit into the text)
+
+# Appendix
+[The appendix gives technical material that is important but too long and detailed for most readers. Most papers will not have an appendix.  Consider also including links to data and reproducible R code]
+
+
+```{r, include=TRUE}
+sessionInfo()
+# End on
+date()
+```
