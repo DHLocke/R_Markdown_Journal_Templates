@@ -17,6 +17,7 @@ Currently there are templates for the following journals:
 | :--- | :--- | :--- |
 | JARIDENV | Journal of Arid Environments  | https://www.elsevier.com/journals/journal-of-arid-environments/01401963/guide-for-authors |
 | LAUP | Landscape and Urban Planning | https://www.elsevier.com/journals/landscape-and-urban-planning/0169-2046?generatepdf=true |
+| STOTEN | Science of the Total Environment | https://www.elsevier.com/journals/science-of-the-total-environment/00489697/guide-for-authors |
 | UECO | Urban Ecosystems | https://www.springer.com/life+sciences/ecology/journal/11252 |
 | UFUG | Urban Forestry & Urban Greening | https://www.elsevier.com/journals/urban-forestry-and-urban-greening/1618-8667?generatepdf=true |
 | USJ | Urban Studies | https://us.sagepub.com/en-us/nam/journal/urban-studies |
