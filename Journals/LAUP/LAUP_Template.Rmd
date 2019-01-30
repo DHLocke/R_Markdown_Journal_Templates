@@ -28,6 +28,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 library(tidyverse)
 library(knitr)
+library(grateful)
 
 # set a significance threshold
 SigLevel <- 0.05
@@ -101,7 +102,7 @@ Begin typing here
 
 Begin typing here 
 
-All statistical analyses were carried out with `r R.version.string`.
+All statistical analyses were carried out with `r R.version.string`, using the following packages 
 
 We define statistically significant as a p-value of <`r SigLevel`.
 
